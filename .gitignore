@@ -1,0 +1,34 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+config/local.json
+config/*.local.json
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Generated / platform files
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# OS
+.DS_Store
+Thumbs.db
+
