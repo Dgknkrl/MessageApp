@@ -14,21 +14,29 @@ build/
 # Local secrets and configuration
 .env
 .env.*
-!.env.example
 config/local.json
 config/*.local.json
 android/local.properties
 android/key.properties
+google-services.json
+**/google-services.json
+**/service-account*.json
+**/service_account*.json
+**/credentials*.json
 *.jks
 *.keystore
+*.p12
+*.pem
+*.der
 
 # Generated / platform files
 android/.gradle/
 android/app/debug/
 android/app/profile/
 android/app/release/
+*.apk
+*.aab
 
 # OS
 .DS_Store
 Thumbs.db
-
